@@ -160,6 +160,16 @@ gap: 40px;
     border-radius: 4px;
 }
 .modal-close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+
 }
 .modal-close-icon {
 }

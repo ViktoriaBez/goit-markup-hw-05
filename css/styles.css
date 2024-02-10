@@ -602,7 +602,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 100%;
-    max-width: 408px;
+    width: 408px;
     min-height: 584px;
     background-color: #FCFCFC;
     border-radius: 4px;

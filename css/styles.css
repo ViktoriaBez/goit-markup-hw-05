@@ -520,12 +520,6 @@ margin-bottom: 16px;
     margin-left: 80px;
 }
 
-.footer-subsct-list {
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
 .footer-form-email{
     display: flex;
     gap: 24px;

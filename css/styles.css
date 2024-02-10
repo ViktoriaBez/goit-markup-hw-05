@@ -339,6 +339,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 /*HERO*/
 
 .hero-container{
@@ -721,6 +722,10 @@ margin-bottom: 16px;
  justify-content: center;
 }
 
+.footer-form-email{
+    display: flex;
+    gap: 24px;
+}
 .footer-subsct-item {
     color:#FFF;
  font-size: 16px;
@@ -733,11 +738,11 @@ margin-bottom: 16px;
 .footer-email-input{
     width: 264px;
 height: 40px;
+padding: 8px 16px;
 color: #FFF;
 font-size: 12px;
-line-height: 24px; /* 200% */
-letter-spacing: 0.48px;
-padding: 8px 16px;
+line-height: 2px; /* 200% */
+letter-spacing: 0.04em;
 border-radius: 4px;
 background-color: transparent;
 border: 1px solid #FFF;
@@ -748,27 +753,21 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     font-size: 12px;
     font-weight: 400;
-    line-height: 24px; /* 200% */
-    letter-spacing: 0.48px;
+    line-height: 2; /* 200% */
+    letter-spacing: 0.04em;
 }
 
 .footer-submit-icon {
     margin-left: 24px;
 }
 
-.submit-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 .footer-submit-btn {
     color:  #FFF;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
+    line-height: 1,5; /* 150% */
+    letter-spacing: 0.04em;
     display: flex;
     align-items: center;
     justify-content: center;
